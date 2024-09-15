@@ -34,5 +34,8 @@ Welcome to the **Weather App**! This delightful app is crafted with **Vanilla Ja
 
 4. **Open `index.html`** in your browser and you're all set! 🎉
 
+## 🎓 Learning Purpose
+I created this app to learn how to use the `fetch` API and handle APIs effectively. It was a great way to get hands-on experience with real-world data fetching and manipulation.
+
 ## 🙌 Acknowledgements
 - A big thanks to OpenWeatherMap for providing the weather data API. 🌐
