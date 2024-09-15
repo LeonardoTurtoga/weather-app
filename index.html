@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+<link rel="stylesheet" href="style.css"></head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+<body>
+    <div id="app">
+        <h1 id="weather">Simple Weather App</h1>
+        
+        <div class="container">
+            <h1  class="location" id="location-h1"></h1>
+            <h1 class="timetext" id="time-text"></h1>
+            <div class="img">
+                <img src="" alt="" srcset="" id="icon">
+            </div>
+            <div class="cellAndDes">
+                <h1 class="temp" id="temp"></h1>
+                <h2 class="descript" id="descript"></h2>
+            </div>
+            <div class="bottom">
+                <div class="hum-con">
+                    <div class="icon-hum">
+                        <img src="img/humidity.png" alt="humidity" >
+                    </div>
+                    <div class="humidity">
+                        <h1 class="hum" id="hum"></h1>
+                        <h2 class="des"></h2>
+                    </div>
+                </div>
+                <div class="wind-con">
+                    <div class="icon-wind">
+                        <img src="img/wind.png" alt="humidity">
+                    </div>
+                    <div class="wind">
+                        
+                        <h1 class="windspeed" id="wind-speed"></h1>
+                        <h2 class="des"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
