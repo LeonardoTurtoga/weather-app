@@ -29,7 +29,7 @@ Welcome to the **Weather App**! This delightful app is crafted with **Vanilla Ja
     - Open the `script.js` file.
     - Replace `'YOUR_API_KEY'` with your actual OpenWeatherMap API key:
         ```javascript
-        const apiKey = 'YOUR_API_KEY';
+        const API_KEY = 'YOUR_API_KEY';
         ```
 
 4. **Open `index.html`** in your browser and you're all set! 🎉
