@@ -25,11 +25,14 @@ Welcome to the **Weather App**! This delightful app is crafted with **Vanilla Ja
     ```bash
     cd weather-app
     ```
-3. **Open `index.html`** in your browser and you're all set! 🎉
+3. **Add your OpenWeatherMap API key**:
+    - Open the `script.js` file.
+    - Replace `'YOUR_API_KEY'` with your actual OpenWeatherMap API key:
+        ```javascript
+        const apiKey = 'YOUR_API_KEY';
+        ```
 
-## 📜 License
-This project is licensed under the **MIT License**. 📄
+4. **Open `index.html`** in your browser and you're all set! 🎉
 
 ## 🙌 Acknowledgements
 - A big thanks to OpenWeatherMap for providing the weather data API. 🌐
-
